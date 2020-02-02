@@ -31,7 +31,7 @@ class Home extends Component {
                     <div>
                         <Button handleSubmit={this.handleSubmit} label="START GAME"/>
                     </div>
-                    # TODO add instructions on how to play and the details of the game.
+                     {/*TODO add instructions on how to play and the details of the game.*/}
                 </form>
             </section>
         );
