@@ -5,7 +5,7 @@ The main folder is the `app` folder.
     In `views` you can see the `home` folder with a `home_controller.rb` on `controller` folder.
         In home folder there is a file `index.html.erb` this will be the main file for the UI.
             <%= javascript_pack_tag "index" %>
-            means that it will include `index.js` from `javascript/packs/index.js`
+            means that it will include `Tile.js` from `javascript/packs/Tile.js`
 
 
 
