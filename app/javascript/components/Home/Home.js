@@ -15,15 +15,15 @@ class Home extends Component {
     handleChange = (e) => {
         const {name, value} = e.target;
         this.setState({[name]: value});
-    }
+    };
 
     updatePlayerName = (event) => {
-        event.preventDefault()
+        event.preventDefault();
         this.setState({submitted: true});
-        const {userName, boardSize} = this.state
+        const {userName, boardSize} = this.state;
         console.log("The username is " + userName + ". The size of the board is  " + boardSize)
         // todo now submit the data to the backend and get a matrix 4x4 boggle game
-    }
+    };
 
     render() {
         return (
