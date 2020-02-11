@@ -1,0 +1,10 @@
+Architecture design plan:
+	User enters a name and clicks `start game` button (DONE) /
+	ROR generates a random 4x4 matrix, and its possible solutions.
+	This will be stored in database, with an unique ID.
+	The random matrix and the ID will be sent to the Client.
+	The react will display the matrix, (Static value is displayed for now) /stage/index
+	Client will have 2 minutes to find as much words as possible.
+	The user will enter guess words and the words will be displayed in the side(not validated)
+	Once time is up, The list is validated against the database table possible solutions.
+	The resulsts will be displayed to the user on the Results page.
